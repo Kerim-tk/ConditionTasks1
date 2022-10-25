@@ -29,7 +29,7 @@ function three(){
     const a = +prompt ('please enter the value of A:');
     const b = +prompt ('please enter the value of B:');
     const c = +prompt ('please enter the value of C:');
-    let result = c-b/a;
+    let result = (c-b)/a;
     console.log(result);
 }
 ///////////////////////////////////////////////////////////////////////
@@ -83,13 +83,13 @@ function five(){
 function six(){
     console.log("The user enters a two-digit number. Print the literal representation of this number to the console. For example, typing '25' will display 'twenty five' in the console, and '13' will display 'thirteen'.")
     let a = +prompt ('please enter the value of A:');
-    let b = +prompt ('please enter the value of B:');
-    let c = +prompt ('please enter the value of C:');
     console.log(a);
-    console.log(b);
-    console.log(c);
+    const string1 = "A string primitive";
+    
     
 }
+
+three()
 
 
 
