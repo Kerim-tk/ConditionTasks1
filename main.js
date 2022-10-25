@@ -50,6 +50,46 @@ function four(){
     }
     console.log(result);
 }
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+function five(){
+    console.log("5. User gives 3 numbers (a, b, c). Find out and print to the console the solution of quadratic equation ax^2+bx+c=0.")
+    let a = +prompt ('please enter the value of A:');
+    let b = +prompt ('please enter the value of B:');
+    let c = +prompt ('please enter the value of C:');
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    if(a == 0)
+        return "D = 0";
+    let res = {};
+    let D = b * b - 4 * a * c;
+    console.log('D = ' + D);
+    if(D < 0)
+        return "D < 0";
+    res = D;
+    if(D == 0)
+        res = (-b + Math.sqrt(D)) / (2 * a);
+    else if(D > 0){
+        let tmp = [];
+        tmp.push((-b + Math.sqrt(D)) / (2 * a));
+        tmp.push((-b - Math.sqrt(D)) / (2 * a));
+        res = tmp;
+    }
+    return res;
+}
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+function six(){
+    console.log("The user enters a two-digit number. Print the literal representation of this number to the console. For example, typing '25' will display 'twenty five' in the console, and '13' will display 'thirteen'.")
+    let a = +prompt ('please enter the value of A:');
+    let b = +prompt ('please enter the value of B:');
+    let c = +prompt ('please enter the value of C:');
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    
+}
 
-four()
+
 
