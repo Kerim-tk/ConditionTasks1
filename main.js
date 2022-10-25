@@ -85,11 +85,37 @@ function six(){
     let a = +prompt ('please enter the value of A:');
     console.log(a);
     const string1 = "A string primitive";
+    // не могу без array сделать
     
+}
+///////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////
+function seven(){
+    console.log("7. User gives 3 numbers (x, y, r). Find out if point with location (x,y) is inside a circle with radius r? (the center of the circle is at the origin)")
+    let x = +prompt ('please enter the value of X:');
+    let y = +prompt ('please enter the value of Y:');
+    let r = +prompt ('please enter the value of R:');
+    console.log(x);
+    console.log(y);
+    console.log(r);
+    
+
+    if(x**2 + y**2 < r**2)
+    {
+        console.log("Inside");
+    }
+    else if(x**2 + y**2 == r**2)
+    {
+        console.log("On the circle");
+    }
+    else
+    {
+        console.log("Outside");
+    }
     
 }
 
-three()
+seven()
 
 
 
